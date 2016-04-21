@@ -1,0 +1,140 @@
+.filter_block {
+	float: right; 
+	padding-bottom: 10px;
+}
+
+.gb {
+	width: 300px;
+}
+
+.block_bd {
+/*	border-radius: 3px;
+	box-shadow: 0 0 1px 1px #A0A0A0; 
+	box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #d8d8d8; 
+	border-bottom-width: 3px;
+	border-top-width: 3px;*/
+	vertical-align: top;
+	/*margin-bottom: 20px;*/
+	padding: 5px;
+}
+
+.block_head {	
+	font-size: 20px;
+	text-align: center;
+	margin: 10px 0px 5px 0px;
+/*	background-color: #565656;
+	color: transparent;
+	text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+	-webkit-background-clip: text;
+    -moz-background-clip: text;
+        background-clip: text;*/
+}
+
+.block_body {
+	font-size: 12px;
+	padding: 5px;
+}
+
+.search {
+	/*background: #F7F7F7;*/
+	margin-top: 5px;
+	padding: 5px 5px 10px 5px;
+/*	border: 1px dashed black;*/
+}
+
+.search .filter_label {
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif, Lucida Sans;
+	color: #333366;
+}
+
+.search .filter {
+	width: 70px;
+	margin: 5px 0 5px 0;
+}
+
+select {
+	font: 11px tahoma, verdana, arial, sans-serif;
+	height: 22px;
+}
+
+.data_row {
+	margin-top: 20px;
+	float: left;
+}
+
+.date {
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+	font-size: 11px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	width: 100px;
+	border-left: 1px solid black;
+}
+
+.date_header {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	float: left;
+	text-align: center;
+	height: 20px;
+	width: 100px;
+}
+
+#nav, #nav ul {
+	list-style:none outside none;
+	padding:0px;
+}
+
+#nav li {
+	float:left;
+	position:relative;
+	width:100px;
+	color:black;
+	font-size: 16pt;
+}
+
+#nav li ul {
+/*	padding:8px;*/
+	position:absolute;
+	width:200px;
+	z-index:100;
+}
+
+#nav li li {
+	float:left;
+	position:relative;
+	font-size:12px;
+	color:#00437b;
+	list-style-image: url('/images/li.gif');
+	margin-bottom:2px; margin-left:10px;
+}
+#nav li li:hover {
+	float:left;
+	position:relative;
+	font-size:12px;
+	color:#00437b;
+	list-style-image: url('/images/li_hover.gif');
+	margin-bottom:2px; 
+	margin-left:10px;
+}
+
+#nav a {
+	color:#333366;
+	display:block;
+	font-size:20px;
+	text-decoration:none;
+}
+
+#nav li li a {
+	color:#333366;
+	display:block;
+	font-size:12px;
+	text-decoration:none;
+}

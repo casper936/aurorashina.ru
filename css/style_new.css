@@ -1,0 +1,184 @@
+body {
+	color: #333;
+	margin: 0px;
+	padding: 0px;
+	direction: ltr;
+	font-family: 'trebuchet ms',sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	background: #FFFFFF url(/images/background/background.jpg) repeat-x top center;
+}
+
+ul#navigation {
+	margin-right: 1px;
+	list-style-type:none;
+	float:left;
+}
+
+ul#navigation li {
+	display:inline;
+}
+
+ul#navigation a {
+	display:block;
+	float:left;
+	padding:.2em 2em;
+	text-decoration:none;
+	color:#fff; /*цвет шрифта*/
+	cursor: pointer;
+}
+
+ul#navigation a:hover {
+	margin-top: -5px;
+}
+
+#hr1 {
+	border: none;
+	background-color: #A0A0A0;
+	color: #A0A0A0;
+	height: 1px;
+	width: 150px;
+}
+
+#hr2 {
+	border: none;
+	background-color: #A0A0A0;
+	color: #A0A0A0;
+	height: 1px;
+	width: 100%;
+}
+
+#h_wrap {
+	height: 20px;
+}
+
+#h_r {
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+#content_pic {
+	background: #fff;
+	float: left;
+	width: 300px;
+	position:relative;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	border-radius: 5px;
+	box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+	background: url(/images/Shiny.jpg) center no-repeat;
+}
+
+#content_body {
+	margin-left: 320px;
+}
+
+#page_layout {
+	margin: 0px auto;
+	padding: 0;
+	box-shadow: inset 0px 0px 50px rgba(0,0,0,0.9);
+	background: url(/images/block1_bg.png) center top repeat-x;
+	height: 112px;
+	border-radius: 4px;
+	 -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+       -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.ULmenu {
+	text-align: center;
+	font-size: 8pt;
+	font-weight: bold;
+	cursor: pointer;
+	color:#fff; 
+}
+
+.wrap {
+	margin: 0 auto;
+	position: relative;
+}
+
+.header {
+	position:relative;
+    padding:1em;
+    background:#fff;
+    border-radius:4px;
+    -moz-border-radius:4px;
+}
+
+.header:before,
+.header:after {
+	 content:"";
+        position:absolute;
+        z-index:-2;
+		top: 10px;
+        left:10px;
+        width:50%;
+        height:20%;
+        max-width:300px;
+    -webkit-box-shadow:0 -13px 10px rgba(0, 0, 0, 0.7);
+       -moz-box-shadow:0 -13px 10px rgba(0, 0, 0, 0.7);
+            box-shadow:0 -13px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform:rotate(3deg);
+       -moz-transform:rotate(3deg);
+        -ms-transform:rotate(3deg);
+         -o-transform:rotate(3deg);
+            transform:rotate(3deg);
+}
+
+.header:after {
+	right:10px;
+    left:auto;
+    -webkit-transform:rotate(-3deg);
+       -moz-transform:rotate(-3deg);
+        -ms-transform:rotate(-3deg);
+         -o-transform:rotate(-3deg);
+            transform:rotate(-3deg);
+}
+
+.header_c {
+	background: url(/images/background/city.png) no-repeat;
+	background-position: center;
+	background-size: 500px;
+	background-position-y: 30px;
+	height: 200px;
+}
+
+.logo {
+	float:left;
+	background:#fff;
+	margin: 30px 10px 64px;
+	-webkit-box-shadow:0 0 1px 5px rgba(51,0,153, 0.9), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 0 1px 5px rgba(51,0,153, 0.9), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 0 1px 5px rgba(51,0,153, 0.9), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.UL_menu {
+	float: left;
+	margin-left: 30px;
+	margin-top: 18px;
+}
+
+.header_l {
+	margin: 10px;	
+}
+
+.header_b {
+	margin-top: 20px; 
+	float: right;
+	margin-right: 15px;
+}
+
+.header_l_contact {
+	font-size:16pt;
+	padding: 10px 0px 6px 10px;
+}
+
+.body_content{
+	background: #FFFFFF;
+	overflow: hidden;
+	padding: 10px;
+}

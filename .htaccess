@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^catalog/tires/([^/]*)/([^/]*)$ /catalog/tyres/description.php?b=$1&m=$2 [L]
+RewriteRule ^contacts$ /pages/contacts.php [L]
+
+ErrorDocument 404 http://aurorashina.ru/error/404.html

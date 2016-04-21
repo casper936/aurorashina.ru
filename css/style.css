@@ -1,0 +1,61 @@
+body {
+	color: #333;
+	margin: 0px;
+	padding: 0px;
+	direction: ltr;
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.banner {
+	box-shadow: 0 0 3px 1px #A0A0A0;
+	width: 900px; 
+	height: 650px;
+}
+
+.page_layout {
+	margin: 0px auto;
+	padding: 0;
+	width: 900px;
+}
+
+.footer {
+	float: right;
+}
+
+.header {
+	margin: 0 auto;
+	width: 95%;
+	height: 110px;
+}
+
+.header-top-bar {
+    height: 50px;
+    border-bottom: 1px solid #BCBCBC;	
+}
+.header-side-boxes {
+	position: absolute;
+	top: 15px;
+	width: 50%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+.header-side-boxes.l{
+	left: 0;
+}
+.header-side-boxes.r{
+	right: 0;
+}
+.logo {
+	position:absolute;
+	left: 40%;
+	top: -40px;
+}
+
+.fix {
+	width: 95%;	
+	position:relative;
+	margin: 0 auto;
+}
